@@ -16,7 +16,10 @@ console.log(secretMessage);
 
 console.log(secretMessage.length);
 
+// Use an array method to add the words to and Program as separate 
+// strings to the end of the secretMessage array. 
 
+secretMessage.push('To', 'Program');
 
 
 console.log('CONNECTED');
