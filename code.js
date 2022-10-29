@@ -9,7 +9,7 @@ let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'ea
 
 
 secretMessage.pop();
-console.log(secretMessage);
+
 
 // Great! You can check your work by logging the .length of the array.
 // At this point, the length should be 1 less than the original length.
@@ -21,5 +21,26 @@ console.log(secretMessage.length);
 
 secretMessage.push('To', 'Program');
 
+// Change the word easily to the word right by accessing the index and replacing it.
+
+secretMessage[7] = 'right';
+
+// Use an array method to remove the first string of the array.
+
+secretMessage.shift();
+
+// Use an array method to add the string Programming to the beginning of the array. 
+
+secretMessage.unshift('Programming');
+
+// Use an array method to remove the strings get, right, the, first, time,, and replace them with the single string know,.
+
+secretMessage.splice(6, 5, 'know,');
+
+// On one line, use console.log() and .join() to print the secret message as a sentence.
+
+console.log(secretMessage.join(' '));
+
+console.log(secretMessage);
 
 console.log('CONNECTED');
